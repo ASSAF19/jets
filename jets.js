@@ -6,6 +6,9 @@ class Jet {
   takeOff () {
     console.log('lift off!');
   }
+  fly () {
+    console.log('whoosh!');
+  };
 }
 
 module.exports = Jet;
