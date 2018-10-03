@@ -1,11 +1,14 @@
 class Jet {
-  constructor(color, size) {
+  constructor(color, size){
     this.color = color;
     this.size = size;
   }
-  fly() {
-    console.log('yupi doooooo');
+  takeOff () {
+    console.log('lift off!');
   }
+  fly () {
+    console.log('whoosh!');
+  };
 }
 
-module.exports = Jet
+module.exports = Jet;
