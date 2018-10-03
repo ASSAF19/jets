@@ -1,8 +1,12 @@
-class Rocket {
+class Rocket{
     constructor(color, size) {
-        this.color = color;
-        this.size = size;
-
+      this.color = color;
+      this.size = size;
     }
-}
-module.exports = Rocket;
+    
+    launch () {
+      console.log('3, 2, 1, blastoff!');
+    }
+  }
+  
+  module.exports = Rocket;
